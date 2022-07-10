@@ -1,0 +1,16 @@
+.navbar{
+    background-color:#4287f5;
+    color:white;
+}
+.name{
+    padding:15px;
+    display:inline-block;  
+}
+ul{
+    float:right;
+    list-style:none;
+    display:flex;
+}
+li{
+    margin: 10px;;
+}

@@ -1,0 +1,73 @@
+.container{
+    display:flex; flex-direction:column; align-items:center; width:100vw; 
+    padding:25px 0px;
+}
+.io{
+    width: 80%;
+}
+.heading{
+    padding-bottom: 5px;
+}
+textarea{
+    font-size: 18px;
+    width: 100%;
+    border: 1.5px solid rgb(142, 142, 148);
+    border-radius: 4px;
+}
+textarea:focus{
+    outline: 2px solid #4287f5;
+    /* border-radius: 4px; */
+}
+button{
+    background-color:#4287f5; padding:5px;
+    color:white; 
+    border-radius:3px;
+    margin: 5px;
+    border: 1px solid black;
+}
+button:hover{
+    background-color: #1453b9;
+    cursor: pointer;
+    transition: .15s ease-in-out;
+}
+.popup{
+    display: none;
+    padding: 40px;
+    z-index: 5;
+    position: absolute;
+    border: 2px solid grey;
+    border-radius: 3px;
+    background-color: white;
+    top: 30%;
+}
+.replaceWord{
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+}
+.countWord{
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+}
+.cross{
+    position: absolute;
+    padding: 5px 10px;
+    right: 5px;
+    top: 5px;
+}
+.cross:hover{
+    cursor: pointer;
+    color: gray;
+}
+.alert{
+    position: absolute;
+    top: 64px;
+    z-index: 1;
+    background-color: aquamarine;
+    padding: 20px 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(22, 147, 97);
+    display: none;
+    color: rgb(18, 64, 74);
+}
